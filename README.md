@@ -17,6 +17,8 @@ The serial interface is 5 V TTL. So you might just connect a TTL FTDI to USB ada
 
 Use a baudrate of 115200, 8N1
 
+*For all my examples I use a ESP-01s in the WiFi with a telnet-server, so I can remotely communicate with my stove.*
+
 # General usage
 
 ## Installation
