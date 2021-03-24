@@ -1,5 +1,5 @@
 # duepi-serial-interface
-Descibes the serial interface of pellet stoves based on the Duepi Evo line
+Descibes the serial interface of pellet stoves based on the Duepi Evo line. It is known to be working with the "Wamsler Quattro 6" pelletstove.
 
 # WARNING
 
