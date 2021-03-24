@@ -1,0 +1,80 @@
+######################
+List of stove-commands
+######################
+
+### RC200057 ### --> ?
+
+### RC300058 ### --> ?
+
+### RC400059 ### --> [returns 0000]
+
+### RC50005A ### --> [returns 0004, maybe target fan speed? / power level]
+
+### RC60005B ### --> stored target temperature
+
+### RC70005C ### --> ?
+
+### RC80005D ### --> ?
+
+### RC90005E ### --> ?
+
+### RD000056 ### --> exaust gas temperature (first 4 chars)
+
+### RD100057 ### --> ambient temperature (first 4 chars)
+
+### RD200058 ### --> speed of exaust vent
+
+### RD300059 ### --> speed of ambient vent
+
+### RD40005A ### --> speed of pellet snail
+
+### RD50005B ### --> ? correction of exhaust speed (always 0...)
+
+### RD60005C ### --> ? correction of pellet snail (always 0...)
+
+### RD70005D ### --> ???
+
+### RD80005E ### --> countdown cycle (first 4 chars)
+
+### RD90005F ### --> status
+
+0000 0020 --> off
+0101 0022 --> ignition 1 (fan acc)
+0102 0023 --> ignition 2 (load wood)
+0103 0024 --> ignition 3 (fire on)
+0104 0025 --> ignition 4 (fire on + vent on)
+
+0201 0023 --> on
+
+0801 0029 --> cooling 1 (normal)
+0802 002A --> cooling 2 (normal)
+
+1001 0022 --> cooling 1 (for stand-by)
+1002 0023 --> cooling 2 (for stand-by)
+1003 0024 --> off       (stand-by)
+
+### RDA00067 ### --> Error code
+
+### RDB00068 ### --> filling state sucking sensor
+
+### RDC00069 ### --> firmware-version [returns 9200]
+
+### RDD0006A ### [returns 0000]
+
+### RDE0006B ### [returns 0000]
+
+### RDF0006C ### --> PCB temperature
+
+[...]
+
+### REF0006D ### --> exhaust fan rpm (first 4 digits hex to dec *10)
+
+[...]
+
+### RF000058 ### --> power off
+
+### RF001059 ### --> power on [MAY BE POWER-LEVEL!!! RF00x0yy -> 0 = off, 1 ... 5 power level x, 6 may be "AUTO"]
+
+### RF00x0yy ### --> set power level
+
+### RF2xx0yy ### --> set target temperature
