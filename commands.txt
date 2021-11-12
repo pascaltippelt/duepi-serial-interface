@@ -55,6 +55,9 @@ List of stove-commands
 
 ### RDA00067 ### --> Error code
 
+0000 0020 --> No error
+0005 0025 --> No flame
+
 ### RDB00068 ### --> filling state sucking sensor
 
 ### RDC00069 ### --> firmware-version [returns 9200]
