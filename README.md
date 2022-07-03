@@ -7,7 +7,7 @@ This code and information comes "as is" without any guarantee for function, func
 
 # General information
 
-This code was reverse-engineeres by @aceindy and me. We replicated the data passed through between the serial interface of the "WiFi Module" and the stove. The stove uses a simple code with a baudrate of 115200, 8N1. If you have access to a "WiFi Module", you can listen to it on your own, when you attach an Arduino or an ftdi-chip to the correspondenting lines at the stove as "man in the middle". The protocol is unencrypted but minimally obfuscated.
+This code was reverse-engineeres by @aceindy and me. We replicated the data passed through between the serial interface of the "WiFi Module" and the stove. The stove uses a simple code with a baudrate of 115200, 8N1. If you have access to a "WiFi Module", you can listen to it on your own, when you attach an Arduino or an ftdi-chip to the correspondenting lines at the stove as "man in the middle". The protocol is unencrypted but minimally obfuscated. This project started as a security-project, as the original Stove-app did not satisfied my personal security demands.
 
 # Hardware interface
 
