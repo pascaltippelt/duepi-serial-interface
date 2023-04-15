@@ -30,7 +30,7 @@ List of stove-commands
 
 ### RD50005B ### --> ? correction of exhaust speed (always 0...)
 
-### RD60005C ### --> ? correction of pellet snail (always 0...)
+### RD60005C ### --> Reset error state
 
 ### RD70005D ### --> ???
 
